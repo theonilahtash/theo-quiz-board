@@ -1,0 +1,180 @@
+
+      <!DOCTYPE html>
+      <html>
+        <head>
+          <link href="CSS/bootstrap.css" rel="stylesheet" type="text/css">
+          <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+          <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+          <script src="js/scripts.js"></script>
+          <title>Theo Students Quiz</title>
+        </head>
+        <body>
+          <div class="container">
+            <h1>Theo Students Quiz</h1>
+            <h2>St.Clares Computer Club</h2>
+            <h2>JavaScript quiz</h2>
+          </div>
+          <br>
+          <br>
+          <form id="theo-quiz">
+            <div class="form-group">
+              <label>Enter your full name</label><input id="name" class="form-control" type="text"></div>
+              <br>
+              <label>Enter the date</label><input id="date" class="form-control" type="text"></div>
+              <br>
+              <label> Duration:1hr</label> <br><br><br><label>Total: 20 points</label>
+            </div>
+              <br>
+              <div class="overlay">
+                <h2>Instructions</h2>
+                <ol>
+                  <li>Write your Name and Date in the spaces provided above. </li>
+                  <li>This paper contains two sections.Please answer all questions in section I and II.</li>
+                  <li>Any question left an answered calls for punishment.</li>
+                </ol>
+              </div>
+                <br>
+              <h2>Section I</h2>
+              <br>
+              <div class="banner">
+              <p>What allows javascript to repeat an action until some condition is met</p>
+               <div class="well">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" value="0">
+                    <option value="arrays">Arrays</option>
+                  </label>
+                </div>
+                <div class="radio">
+                  <input type="radio" name="question1" value="2">
+                  <option value="loops">Loops</option>
+              </label>
+            </div>
+            <br>
+            <br>
+            <p>A series of characters inside a quotation marks is called</p>
+            <div class="well">
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" value="0">
+                <option value="number">Number</option>
+                </label>
+              </div>
+              <div class="radio">
+                <input type="radio" name="question2" value="2">
+                <option value="string">String</option>
+              </label>
+            </div>
+            <br>
+            <br>
+            <p>Which method can i use to tell javascript to change my number to two decimal places</p>
+             <div class="well">
+              <div class="radio">
+                <label>
+                <input type="radio" name="question3" value="0">
+              <option value="tostring">tostring</option>
+              </label>
+            </div>
+            <div class="radio">
+              <input type="radio" name="question3" value="2">
+              <option value="toexponential">toexponential</option>
+            </label>
+          </div>
+          <br>
+          <br>
+          <p>Which one of the following is a function in javascript</p>
+          <div class="well">
+            <div class="radio">
+              <label>
+                <input type="radio" name="question4" value="2">
+              <option value="alert">Alert</option>
+              </label>
+            </div>
+            <div class="radio">
+            <input type="radio" name="question4" value="0">
+            <option value="boolean">Boolean</option>
+          </label>
+        </div>
+        <br>
+        <br>
+        <p>Which one would we use to convert something into a number with a decimal</p>
+         <div class="well">
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" value="0">
+              <option value="parseInt">parseInt</option>
+            </label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="question5" value="2">
+          <option value="parseFloat">parseFloat</option>
+          </label>
+        </div>
+        <br>
+        <br>
+        <h2>Section II</h2>
+        <br>
+        <p>It is used to pop up a dialogue box with a warning to the user. </p>
+         <div class="well">
+          <div class="radio">
+            <label>
+            <input type="radio" name="question6" value="0">
+            <option value="confirm">Confirm</option>
+          </label>
+        </div>
+        <div class="radio">
+          <input type="radio" name="question6" value="3"
+          <option value="alert">Alert</option>
+        </div>
+        <div class="radio">
+          <input type="radio" name="question6" value="0"
+          <option value="prompt">Prompt</option>
+        </div>
+        <br>
+        <br>
+        <p>Which is a convenient way to leave notes for yourself or other programmers to make your code easier to read and understand</p>
+         <div class="well">
+          <div class="radio">
+            <label>
+              <input type="radio" name="question7" value="0">
+              <option value="being clear">Being clear</option>
+            </label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="question7" value="3">
+            <option value="using comments">Using comments</option>
+          </div>
+          <div class="radio">
+            <input type="radio" name="question7" value="0">
+            <option value="short code">Short code</option>
+          </div>
+          <br>
+          <br>
+          <p>Which among the following is a useful tool for experimenting with JavaScript</p>
+           <div class="well">
+            <div class="radio">
+              <label>
+              <input type="radio" name="question8" value="0">
+              <option value="jquery">jquery</option>
+            </label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="question8" value="0">
+            <option value="bootstrap">Bootstrap</option>
+          </div>
+          <div class="radio">
+            <input type="radio" name="question8" value="4">
+            <option value="jsfiddle">jsfiddle</option>
+          </div>
+        </div>
+          <br>
+          <br>
+        <button id="submit" type="submit">See the result</button>
+      </form>
+    </div>
+    <div class="Scores">
+    <h2>Scores</h2>
+    <p><span id="shows"></span</p>
+    </div>
+  </body>
+  </html>

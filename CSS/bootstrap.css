@@ -6756,11 +6756,13 @@ button.close {
 }
 h1 {
   color:yellow;
-  font-size: 4em;
+  font-size: 3em;
   font-style: italic;
 }
+h2 {
+  font-size: 1.9em;
+}
 .container {
-  background-color: grey;
   color: yellow;
   font-size: 1.9em;
   font-weight: bold;
@@ -6774,15 +6776,33 @@ h1 {
   font-size: 1.9em;
 }
 p {
-  font-size: 1.6em;
-  text-align: right;
+  font-size: 1.2em;
+  text-align: left;
   padding-right: 50px;
 }
 .banner {
-  text-align: right;
+  text-align:left;
   font-weight: bold;
   font-size: 1.2em;
   padding-right: 50px;
+}
+.radio {
+  text-align: left;
+  padding-right: 50px;
+  font-weight:lighter;
+  color:green;
+}
+body {
+  page-break-inside: auto;
+  padding-right: 50px;
+  background-color: salmon;
+
+}
+.form-group {
+  font-size: 1.3em;
+}
+#date {
+  font-size:1.3em;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
