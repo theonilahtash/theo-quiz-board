@@ -14,17 +14,13 @@
 ## Known bugs
 my project has no known bugs
 ###  Behavior Driven Development
-Users input                                               |             Expected output
-----------------------------------------------------------|------------------------------------------------------------
-The students are supposed to start by writting their names| The users name
-                                                          |
-Each question in section I is 2points                     | Totals: 10 points                                          
-                                                          |
-Each question in section II is either 3 points or 4points | Totals: 10 points                                          
-                                                          |
-Any question missed to be answered                        | Result : NaN                                                
-
-
+|       Users input                           |                 Expected output                      |
+|---------------------------------------------|------------------------------------------------------|
+| Students are required to write their names  | user's name                                          |
+| Each question in section I is 2 points      | sumUp: 10 points                                     |
+| Each question in section II is 3 or 4 points| sumUP: 10 points                                     |
+| Any question that is left unanswered        | result: NaN                                          |
+ 
 ### Technologies Used
 {I used HTML and CSS/STYLES,JAVASCRIPT, Bootstrap and jQuery.}
 
