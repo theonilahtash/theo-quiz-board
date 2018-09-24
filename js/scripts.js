@@ -1,6 +1,8 @@
+//this is the business logic
 var quizAnswers=function(question1,question2,question3,question4,question5,question6,question7,question8){
   return question1 + question2 + question3 + question4 + question5 + question6 + question7 + question8;
 };
+//this is the user interface
 $(document).ready(function(){
   $("form#theo-quiz").submit(function(event){
     event.preventDefault();
