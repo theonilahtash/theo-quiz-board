@@ -6754,20 +6754,22 @@ button.close {
     display: none !important;
   }
 }
-h1 {
-  color:yellow;
-  font-size: 3em;
+.container {
+  color:red;
+  font-size: 2.5em;
   font-style: italic;
+  font-weight: bold;
+}
+h1 {
+  font-size: 2.5em;
+  color:red;
+  font-style: oblique;
+  font-weight: bold;
 }
 h2 {
   font-size: 1.9em;
 }
-.container {
-  color: yellow;
-  font-size: 1.9em;
-  font-weight: bold;
-}
- .overlay {
+    .overlay {
   background-color: cyan;
   color: red;
   text-align: left;
@@ -6795,14 +6797,18 @@ p {
 body {
   page-break-inside: auto;
   padding-right: 50px;
-  background-color: salmon;
-
+  background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDnmBcDI5agLQ-AOO_nJUcD6oxHl13u6JFhEw5vN-uhLIFT-3n);
+  border:5px solid black;
 }
 .form-group {
   font-size: 1.3em;
 }
-#date {
-  font-size:1.3em;
+h3 {
+  font-size:2.3em;
+  color:red;
+}
+img {
+  float:center;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
