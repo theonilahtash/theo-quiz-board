@@ -17,13 +17,12 @@ my project has no known bugs
 Users input                                               |             Expected output
 ----------------------------------------------------------|------------------------------------------------------------
 The students are supposed to start by writting their names| The users name
-----------------------------------------------------------|------------------------------------------------------------
+                                                          |
 Each question in section I is 2points                     | Totals: 10 points                                          
-----------------------------------------------------------|------------------------------------------------------------
+                                                          |
 Each question in section II is either 3 points or 4points | Totals: 10 points                                          
-----------------------------------------------------------|------------------------------------------------------------
-Any question missed to be answered                        | Result : NaN                                               
-----------------------------------------------------------|------------------------------------------------------------
+                                                          |
+Any question missed to be answered                        | Result : NaN                                                
 
 
 ### Technologies Used
