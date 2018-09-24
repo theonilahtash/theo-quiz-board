@@ -6755,14 +6755,15 @@ button.close {
   }
 }
 .container {
-  color:red;
+  color:yellow;
   font-size: 2.5em;
   font-style: italic;
   font-weight: bold;
+  background-color:blue;
 }
 h1 {
   font-size: 2.5em;
-  color:red;
+  color:yellow;
   font-style: oblique;
   font-weight: bold;
 }
@@ -6770,8 +6771,8 @@ h2 {
   font-size: 1.9em;
 }
     .overlay {
-  background-color: cyan;
-  color: red;
+  background-color: blue;
+  color: yellow;
   text-align: left;
   padding-right: 10px;
   font-weight: bold;
